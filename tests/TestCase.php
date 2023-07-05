@@ -2,9 +2,9 @@
 
 namespace AnamarijaPapic\Example\Tests;
 
+use AnamarijaPapic\Example\ExampleServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use AnamarijaPapic\Example\ExampleServiceProvider;
 
 class TestCase extends Orchestra
 {

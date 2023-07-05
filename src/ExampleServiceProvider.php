@@ -2,9 +2,9 @@
 
 namespace AnamarijaPapic\Example;
 
+use AnamarijaPapic\Example\Commands\ExampleCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use AnamarijaPapic\Example\Commands\ExampleCommand;
 
 class ExampleServiceProvider extends PackageServiceProvider
 {
