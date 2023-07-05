@@ -4,6 +4,7 @@ namespace AnamarijaPapic\Example\Tests;
 
 use AnamarijaPapic\Example\ExampleServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Facades\Route;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
@@ -15,6 +16,8 @@ class TestCase extends Orchestra
         Factory::guessFactoryNamesUsing(
             fn (string $modelName) => 'AnamarijaPapic\\Example\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
+
+        // Route::example();
     }
 
     protected function getPackageProviders($app)

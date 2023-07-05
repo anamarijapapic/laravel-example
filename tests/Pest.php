@@ -1,5 +1,10 @@
 <?php
 
 use AnamarijaPapic\Example\Tests\TestCase;
+use Illuminate\Support\Facades\Route;
 
-uses(TestCase::class)->in(__DIR__);
+uses(TestCase::class)
+    ->beforeEach(function () {
+        Route::example();
+    })
+    ->in('Feature');
