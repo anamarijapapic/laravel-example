@@ -5,6 +5,11 @@ namespace AnamarijaPapic\Example\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
+/**
+ * AnamarijaPapic\Example\Models\MyModel
+ *
+ * @property string $name
+ */
 class MyModel extends Model
 {
     use HasFactory;
