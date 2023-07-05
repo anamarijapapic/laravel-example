@@ -5,7 +5,8 @@
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/anamarijapapic/laravel-example/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/anamarijapapic/laravel-example/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/anamarijapapic/laravel-example.svg?style=flat-square)](https://packagist.org/packages/anamarijapapic/laravel-example)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
+My first Laravel package. This is an example Laravel package.  
+*([Spatie Laravel Package Training v2.0](https://laravelpackage.training/) - Creating a Laravel package)*
 
 ## Installation
 
@@ -51,7 +52,6 @@ php artisan vendor:publish --tag="example-views"
 
 ```php
 $example = new AnamarijaPapic\Example();
-echo $example->echoPhrase('Hello, AnamarijaPapic!');
 ```
 
 ## Testing
